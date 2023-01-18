@@ -1,6 +1,6 @@
 <!-- valine -->
 <div class="doc_comments">
-    <div class="comments_block_title">发表评论</div>
+    <!-- <div class="comments_block_title">发表评论</div> -->
     <div id="vcomments"></div>
 </div>
 
@@ -14,6 +14,9 @@
         appId: '{{ .Site.Params.valine.appId }}',
         appKey: '{{ .Site.Params.valine.appKey }}',
         placeholder: '{{ .Site.Params.valine.placeholder }}',
-        visitor: '{{ .Site.Params.valine.visitor }}',
+        avatar: '{{ .Site.Params.valine.avatar }}',
+        meta: {{ .Site.Params.valine.meta }},
+        lang: '{{ .Site.LanguageCode }}',
+        // visitor: '{{ .Site.Params.valine.visitor }}',
     })
 </script>
