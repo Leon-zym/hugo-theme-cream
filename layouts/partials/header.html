@@ -7,7 +7,7 @@
                 </a>
             </h1>
         </div>
-        <div class="description">
+        <!-- <div class="description">
             <p class="sub_title">{{ with .Site.Params.subTitle }}{{ . }}{{ else }}{{ end }}</p>
             <div class="my_socials">
                 {{ range $key, $val := .Site.Social }}
@@ -18,6 +18,21 @@
                 <a href="{{ .Site.RSSLink }}" type="application/rss+xml" title="rss" target="_blank"><i
                         class="ri-rss-fill"></i></a>
             </div>
+        </div> -->
+    </div>
+
+    <div class="nav_container animated fadeInDown">
+        <div class="site_nav" id="site_nav">
+            <ul>
+                {{ range.Site.Menus.main }}
+                <li>
+                    <a href="{{ .URL | safeURL }}">{{ .Name }}</a>
+                </li>
+                {{ end }}
+            </ul>
+        </div>
+        <div class="menu_icon">
+            <a id="menu_icon"><i class="ri-menu-line"></i></a>
         </div>
     </div>
 </div>
