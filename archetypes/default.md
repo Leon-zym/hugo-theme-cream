@@ -1,11 +1,6 @@
 ---
-title: "{{ replace .Name "-" " " | title }}"
+title: {{ replace .Name "-" " " | title }}
 date: {{ .Date }}
-hidden: false
-draft: true
+categories: 
 tags: []
-keywords: []
-description: ""
-slug: ""
 ---
-
