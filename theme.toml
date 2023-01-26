@@ -2,12 +2,12 @@
 # See https://github.com/gohugoio/hugoThemes#themetoml for an example
 
 name = "cream"
-# license = "MIT"
-# licenselink = ""
+license = "MIT"
+licenselink = "https://github.com/leon-zym/hugo-theme-cream/blob/main/LICENSE"
 description = "A minimal and elegant theme for Hugo."
-homepage = "https://github.com/Leon-zym/hugo-theme-cream"
-# tags = ["blog", "elegant", "minimal", "valine", "rss", "syntax highlighting", "tags"]
-# features = ["blog", "beautiful", "simple", "valine", "rss", "syntax highlighting", "tags"]
+homepage = "https://github.com/leon-zym/hugo-theme-cream"
+tags = ["blog", "elegant", "minimal", "valine comment", "full output rss"]
+features = ["blog", "elegant", "minimal", "valine comment", "full output rss"]
 min_version = "0.58"
 
 [author]
