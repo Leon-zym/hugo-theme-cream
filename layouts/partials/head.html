@@ -34,7 +34,8 @@
 	{{ printf `<link rel="%s" type="%s" href="%s" title="%s" />` .Rel .MediaType.Type .Permalink $.Site.Title | safeHTML }}
     {{ end }}
     
-    <link rel="shortcut icon" href="{{ "images/favicon.ico" | absURL }}" />
+    <link rel="icon" type="image/png" href="{{ "images/favicon.png" | absURL }}" />
+    <link rel="apple-touch-icon" type="image/png" href="{{ "images/apple-touch-icon.png" | absURL }}">
 
     <link rel="stylesheet" type="text/css" media="screen" href="https://cdn.jsdelivr.net/npm/normalize.css/normalize.min.css">
     <link rel="stylesheet" type="text/css" media="screen" href="https://cdn.jsdelivr.net/npm/animate.css/animate.min.css" />
