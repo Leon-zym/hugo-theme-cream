@@ -16,6 +16,6 @@ min_version = "0.58"
 
 # If porting an existing theme
 [original]
-  name = "zozo"
+  name = "varkai"
   homepage = "https://varkai.com"
   repo = "https://github.com/varkai/hugo-theme-zozo"
